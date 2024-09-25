@@ -68,11 +68,12 @@ section{
 
 .heading{
    font-size: 2.5rem;
-   color:var(--black);
+   color:var(--main-color);
    margin-bottom: 2.5rem;
-   border-bottom: var(--border);
+   /* border-bottom: var(--border); */
    padding-bottom: 1.5rem;
    text-transform: capitalize;
+   text-align: center;
 }
 
 .inline-btn,
@@ -586,12 +587,39 @@ section{
    color:var(--orange);
 }
 
-.courses .box-container{
+.tabs{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin: 2rem;
+}
+
+.tablink {
+   padding: 10px 20px;
+   margin-right: 10px;
+   cursor: pointer;
+   color: var(--main-color);
+   outline: none;
+   background-color: var(--white);
+}
+
+.tablink.active {
+   border-bottom:var(--main-color);
+   background-color: var(--main-color);
+   color: #fff;
+}
+
+.courses .box-container {
+   display: none;
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-   gap:1.5rem;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); /* This ensures the grid adjusts based on screen size */
+   gap: 1.5rem;
    justify-content: center;
    align-items: flex-start;
+}
+
+.courses .box-container.active {
+   display: grid;
 }
 
 .courses .box-container .box{
@@ -1469,4 +1497,6 @@ section{
    }
 
 }
+
+
 

@@ -63,3 +63,24 @@ window.onscroll = () =>{
    }
 }
 
+function openContent(evt, contentId) {
+   // Hide all box containers
+   var boxContainers = document.getElementsByClassName("box-container");
+   for (var i = 0; i < boxContainers.length; i++) {
+      boxContainers[i].style.display = "none"; // Hide each box
+   }
+
+   // Remove the "active" class from all tablinks
+   var tablinks = document.getElementsByClassName("tablink");
+   for (var i = 0; i < tablinks.length; i++) {
+      tablinks[i].classList.remove("active");
+   }
+
+   // Show the selected box container and add "active" class to the clicked tablink
+   document.getElementById(contentId).style.display = "grid"; // Show the selected box container
+   evt.currentTarget.classList.add("active"); // Add active class to clicked tab
+}
+
+// By default, open the "Beginners" tab
+document.querySelector(".tablink").click();
+
