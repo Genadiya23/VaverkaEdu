@@ -8,7 +8,7 @@
 body{
     margin: auto;
     overflow: auto;
-    background: linear-gradient(300deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 52%, rgba(48,238,226,1) 98%);
+    background: linear-gradient(300deg, #b31c45 3%, #e74c3c 52%, #ffc16c 98%);
     animation: gradient 10s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -89,7 +89,7 @@ body{
 
 .btn {
    background: #fff;
-   color: #0096d1;
+   color: #b31c45;
    font-weight: 500; 
    width: 100%;
    border: 1px solid #222;
@@ -109,7 +109,7 @@ body{
 }
 
 #next-btn {
-   background: #0096d1;
+   background: #b31c45;
    color: #fff;
    font-weight: 500; 
    width: 150px;
@@ -124,19 +124,19 @@ body{
 
  #next-btn:hover:not([disabled]){
     background-color: #fff;
-    color: #0096d1;
+    color: #b31c45;
     border: solid;
-    border-color: #0096d1;
+    border-color: #b31c45;
 }
 
 
 #courses-btn {
     background: #fff;
-    color: #0096d1;
+    color: #b31c45;
     font-weight: 500; 
     width: 150px;
     border: solid;
-    border-color: #0096d1;
+    border-color: #b31c45;
     padding: 10px;
     margin: 20px auto 0;
     border-radius: 4px;
@@ -145,7 +145,7 @@ body{
 }
 
 #courses-btn:hover:not([disabled]){
-    background-color: #0096d1;
+    background-color: #b31c45;
     color: #fff;
 }
 

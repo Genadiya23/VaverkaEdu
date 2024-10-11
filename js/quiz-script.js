@@ -9,12 +9,12 @@ const questions = [
        ]
     },
     {
-       question: "Who wrote Kurhan?",
+       question: "Who printed first belarusian book?",
        answers: [
-          {text: "Yakub Kolas", correct: false},
-          {text: "Yanka Kupala", correct: true},
-          {text: "Maksim Bahdanovich", correct: false},
-          {text: "Kuzma Chorny", correct: false},
+          {text: "Cimyaon Polatski", correct: false},
+          {text: "Mikola Husouski", correct: false},
+          {text: "Rahneda", correct: false},
+          {text: "Francysk Scaryna", correct: true},
        ]
     },
     {
@@ -27,21 +27,21 @@ const questions = [
        ]
     },
     {
-       question: "Who wrote Kurhan?",
+       question: "Black Night is  ?",
        answers: [
-          {text: "Yakub Kolas", correct: false},
-          {text: "Yanka Kupala", correct: true},
-          {text: "Maksim Bahdanovich", correct: false},
-          {text: "Kuzma Chorny", correct: false},
+          {text: "The night of the shot poets ", correct: true},
+          {text: "Kupalle", correct: false},
+          {text: "Kalyady", correct: false},
+          {text: "Dzyady", correct: false},
        ]
     },
     {
-       question: "Who wrote Kurhan?",
+       question: "Continue the phrase: You should go home more often?",
        answers: [
-          {text: "Yakub Kolas", correct: false},
-          {text: "Yanka Kupala", correct: true},
-          {text: "Maksim Bahdanovich", correct: false},
-          {text: "Kuzma Chorny", correct: false},
+          {text: "You should not be a kid at home", correct: false},
+          {text: "You should not be a pet at home", correct: false},
+          {text: "You should not be a guest at home", correct: true},
+          {text: "I'm home and home is me", correct: false},
        ]
     },
  
